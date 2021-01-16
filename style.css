@@ -1,0 +1,187 @@
+@charset "UTF-8";
+:root {
+  --gray: #C4C4C4;
+  --orange: #EEB156;
+  --light-orange: #eeb156b6;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
+
+* {
+  overflow-x: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+/* .container {
+  min-width: 992px !important;
+} */
+.d-flex {
+  display: flex !important;
+}
+.flex-column {
+  flex-direction: column !important;
+}
+.text-center {
+  text-align: center !important;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+.masthead {
+  width: auto;
+  margin: 0 auto;
+  background-color:#C4C4C4;
+}
+
+.masthead .masthead-heading {
+  font-size: 66px;
+  padding-top: 340px;
+}
+
+.masthead .masthead-subheading {
+  font-size: 32px;
+  padding-bottom: 95px;
+}
+
+.download-section {
+  width: auto;
+  margin: 0 auto;
+  background-color:#eeb156b6;
+}
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #EEB156;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  padding: 1rem 3.5rem;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+.btn:hover {
+  color: #212529;
+  text-decoration: none;
+  background-color: #eeb156b6;
+}
+
+.logos img {
+  height: 100px;
+  width: auto;
+}
+
+.logos {
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+
+.logos ul{
+  position: relative;
+  display: flex;
+  justify-content:space-around;
+  width: 100%;
+}
+@media (max-width: 850px) {
+  .logos ul{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .logos img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.project-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.project-description {
+  width: 50%;
+}
+
+.project-text {
+  padding-bottom: 1rem;
+  font-size: 24px;
+}
+
+.download-section .download-heading {
+  font-size: 48px;
+  padding: 50px;
+}
+
+.download-section .download-text {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.box h1 {
+  padding: 20px;
+  font-size: 36px;
+  text-align: left;
+  width: 100%;
+}
+
+.box p {
+  padding-bottom: 50px;
+  font-size: 24px;
+  text-align: left;
+  margin-left: 20px;
+  width: 100%;
+}
+
+.box {
+  background-color: #FFFFFF;
+  width: 532px;
+  height: 282px;
+  display: inline-block;
+  margin: 25px;
+  text-align: center;
+}
+@media (max-width: 580px) {
+  .box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.footer {
+  padding: 1.5rem;
+}
+
+.copyright {
+  font-size: 24px;
+}
+
+#parent{
+  position: relative;
+}
+
+.vid {
+  position: absolute;
+  top: 105px; 
+  left: 305px;
+}
+
