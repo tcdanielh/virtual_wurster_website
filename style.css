@@ -316,7 +316,7 @@ video {
 
 .video-size {
   width: 70%;
-  filter: drop-shadow(15px 30px 15px #4444dd);
+  filter: drop-shadow(15px 30px 15px #3d3d3d);
 }
 
 .responsive {
