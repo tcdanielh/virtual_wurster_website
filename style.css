@@ -174,19 +174,6 @@ video {
     width: auto;
   }
 }
-@media (max-width: 389px) {
-  #videoBG {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    object-fit: cover;
-    height: 1160px;
-  }
-  .logos img {
-    height: 30px;
-    width: auto;
-  }
-}
 
 .project-section {
   padding-top: 100px;
@@ -201,7 +188,7 @@ video {
   font-size: 18px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 768px) {
   .project-description {
     width: 75%;
   }
@@ -210,9 +197,6 @@ video {
 @media (max-width: 500px) {
   .project-text {
     font-size: 14px;
-  }
-  .project-description {
-    width: 75%;
   }
 }
 
