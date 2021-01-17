@@ -319,6 +319,42 @@ video {
   filter: drop-shadow(15px 30px 15px #3d3d3d);
 }
 
+@media (max-width: 975px) {
+  .video-size {
+    width: 70%;
+    filter: drop-shadow(15px 20px 15px #3d3d3d);
+  }
+}
+@media (max-width: 800px) {
+  .video-size {
+    width: 70%;
+    filter: drop-shadow(10px 10px 15px #3d3d3d);
+  }
+}
+@media (max-width: 575px) {
+  .video-size {
+    width: 70%;
+    filter: drop-shadow(10px 5px 15px #3d3d3d);
+  }
+}
+@media (max-width: 575px) {
+  .video-size {
+    width: 70%;
+    filter: drop-shadow(7px 3px 15px #3d3d3d);
+  }
+}
+@media (max-width: 575px) {
+  .video-size {
+    width: 70%;
+    filter: drop-shadow(5px 2px 15px #3d3d3d);
+  }
+}
+@media (max-width: 360px) {
+  .video-size {
+    width: 70%;
+    filter: drop-shadow(5px 1px 15px #3d3d3d);
+  }
+}
 .responsive {
   position: relative;
   padding-top: 25px;
