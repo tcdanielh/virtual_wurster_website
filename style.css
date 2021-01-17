@@ -360,7 +360,7 @@ video {
   padding-bottom: 67.5%;
   height: 0;
 }
-.responsive iframe {
+.responsive iframe{
   box-sizing: border-box;
   background: url(https://i.imgur.com/JrR6LsX.png) center center no-repeat;
   background-size: contain;
