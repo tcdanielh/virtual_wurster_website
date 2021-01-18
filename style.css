@@ -1,6 +1,7 @@
 @charset "UTF-8";
 :root {
   --gray: #C4C4C4;
+  --dark-gray:#808080;
   --orange: #EEB156;
   --light-orange: #eeb156b6;
   --white: #FFFFFF;
@@ -119,6 +120,7 @@ video {
 .logos {
   padding-top: 150px;
   padding-bottom: 30px;
+  padding-left: 29px;
 }
 
 .logos ul{
@@ -198,7 +200,6 @@ video {
 
 .project-section {
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .project-description {
@@ -207,6 +208,7 @@ video {
 
 .project-text {
   font-size: 18px;
+  padding-bottom: 25px;
 }
 
 @media (max-width: 768px) {
@@ -261,6 +263,8 @@ video {
   text-align: left;
   margin-left: 20px;
   width: 100%;
+  /* color: #808080;
+  text-decoration: underline; */
 }
 
 .box {
@@ -367,64 +371,52 @@ video {
 }
 .responsive iframe{
   box-sizing: border-box;
-  background: url(https://i.imgur.com/JrR6LsX.png) center center no-repeat;
+  background: url(https://i.imgur.com/JrR6LsX.png) no-repeat;
   background-size: contain;
-  padding: 11.3% 14.1% 13.5% 15.7%;
+  padding: 5.4% 14.3% 19.5% 15.8%;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
+@media (max-width: 1920px) {
+  .responsive iframe {
+    padding: 5.4% 14.3% 20.1% 15.8%;
+  }
+}
 @media (max-width: 1750px) {
   .responsive iframe {
-    box-sizing: border-box;
-    background: url(https://i.imgur.com/JrR6LsX.png) center center no-repeat;
-    background-size: contain;
-    padding: 11.8% 14.1% 14.2% 15.7%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    padding: 5.4% 14.3% 20.1% 15.8%;
   }
 }
 @media (max-width: 1350px) {
   .responsive iframe {
-    box-sizing: border-box;
-    background: url(https://i.imgur.com/JrR6LsX.png) center center no-repeat;
-    background-size: contain;
-    padding: 12.1% 14.1% 14.5% 15.7%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    padding: 5.4% 14.3% 20.7% 15.8%;
+  }
+}
+@media (max-width: 1024px) {
+  .responsive iframe {
+    padding: 5.4% 14.3% 21.5% 15.8%;
+  }
+}
+@media (max-width: 768px) {
+  .responsive iframe {
+    padding: 5.4% 14.3% 22.7% 15.8%;
   }
 }
 @media (max-width: 575px) {
   .responsive iframe {
-    box-sizing: border-box;
-    background: url(https://i.imgur.com/JrR6LsX.png) center center no-repeat;
-    background-size: contain;
-    padding: 13.8% 14.1% 15.7% 15.7%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    padding: 5.4% 14.3% 24.4% 15.8%;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .responsive iframe {
-    box-sizing: border-box;
-    background: url(https://i.imgur.com/JrR6LsX.png) center center no-repeat;
-    background-size: contain;
-    padding: 15% 14.1% 17.9% 15.7%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    padding: 5.4% 14.3% 26.4% 15.8%;
+  }
+}
+@media (max-width: 320px) {
+  .responsive iframe {
+    padding: 5.4% 14.3% 29.2% 15.8%;
   }
 }
