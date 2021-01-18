@@ -51,8 +51,35 @@
             <div class="video-size">
                 <div class="responsive">
                     <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe> -->
-                    <iframe src="https://drive.google.com/file/d/1RCOGnFKA0uA50HeiZbv2PceQMCBEdb1i/preview" width="640"
-                        height="480" frameborder="0" allowfullscreen></iframe>
+                    <div id="muteYouTubeVideoPlayer"></div>
+
+                    <script async src="https://www.youtube.com/iframe_api"></script>
+                    <script>
+                        function onYouTubeIframeAPIReady() {
+                            var player;
+                            player = new YT.Player('muteYouTubeVideoPlayer', {
+                                videoId: 'dQw4w9WgXcQ', // YouTube Video ID
+                                width: 560,               // Player width (in px)
+                                height: 316,              // Player height (in px)
+                                playerVars: {
+                                    autoplay: 0,        // Auto-play the video on load
+                                    controls: 1,        // Show pause/play buttons in player
+                                    showinfo: 0,        // Hide the video title
+                                    modestbranding: 1,  // Hide the Youtube Logo
+                                    loop: 1,            // Run the video in a loop
+                                    fs: 0,              // Hide the full screen button
+                                    cc_load_policy: 0, // Hide closed captions
+                                    iv_load_policy: 3,  // Hide the Video Annotations
+                                    autohide: 0         // Hide video controls when playing
+                                },
+                                events: {
+                                    onReady: function (e) {
+                                        e.target.mute();
+                                    }
+                                }
+                            });
+                        }
+                    </script>
                 </div>
             </div>
         </div>
