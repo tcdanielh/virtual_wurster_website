@@ -49,20 +49,14 @@
             </div>
             <div class="video-size">
                 <div class="responsive">
-                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe> -->
-                    <!-- <iframe src="https://drive.google.com/file/d/1RCOGnFKA0uA50HeiZbv2PceQMCBEdb1i/preview" width="640"
-                        height="480" frameborder="0" allowfullscreen></iframe> -->
-                    <!-- <video poster="assets/poster.png" controls playsinline>
-                        <source src="assets/Studio.mp4" type="video/mp4" loading="lazy">
-                    </video> -->
 
-                    <div id="muteYouTubeVideoPlayer"></div>
+                    <div id="YouTubeVideoPlayer"></div>
                     <script async src="https://www.youtube.com/iframe_api"></script>
                     <script>
                         function onYouTubeIframeAPIReady() {
                             var player;
-                            player = new YT.Player('muteYouTubeVideoPlayer', {
-                                videoId: 'TObsrxAQsrY', // YouTube Video ID
+                            player = new YT.Player('YouTubeVideoPlayer', {
+                                videoId: 'vx6ZQpfO5Z8', // YouTube Video ID
                                 width: 560,               // Player width (in px)
                                 height: 316,              // Player height (in px)
                                 playerVars: {
@@ -70,17 +64,17 @@
                                     controls: 1,        // Show pause/play buttons in player
                                     modestbranding: 1,  // Hide the Youtube Logo
                                     loop: 1,            // Run the video in a loop
-                                    playlist: 'TObsrxAQsrY',
+                                    playlist: 'vx6ZQpfO5Z8',
                                     fs: 1,              // Hide the full screen button
                                     cc_load_policy: 0, // Hide closed captions
                                     iv_load_policy: 3,  // Hide the Video Annotations
                                     autohide: 0         // Hide video controls when playing
                                 },
-                                events: {
-                                    onReady: function (e) {
-                                        e.target.mute();
-                                    }
-                                }
+                                // events: {
+                                //     onReady: function (e) {
+                                //         e.target.mute();
+                                //     }
+                                // }
                             });
                         }
                     </script>
@@ -105,7 +99,7 @@
                     <p class="three">Guidelines for installation &#x2192;</p>
                 </a>
                 <a href=https://docs.google.com/document/d/19J6pj6b34f6gMQrOW94_aOCiKn6TgcRPWimyhLeI9N0>
-                    <p class="three">Guidelines for submitting work &#x2192;</p>
+                    <p class="three">Guidelines for use / submitting work &#x2192;</p>
                 </a>
             </div>
             <div class="box">
@@ -117,7 +111,7 @@
                     <p class="three">Guidelines for installation &#x2192;</p>
                 </a>
                 <a href=https://docs.google.com/document/d/19J6pj6b34f6gMQrOW94_aOCiKn6TgcRPWimyhLeI9N0 target="_blank">
-                    <p class="three">Guidelines for submitting work &#x2192;</p>
+                    <p class="three">Guidelines for use / submitting work &#x2192;</p>
                 </a>
             </div>
         </div>
