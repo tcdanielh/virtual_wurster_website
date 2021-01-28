@@ -369,6 +369,7 @@ video {
   padding-bottom: 67.5%;
   height: 0;
 }
+
 .responsive iframe{
   box-sizing: border-box;
   background: url(https://i.imgur.com/JrR6LsX.png) no-repeat;
@@ -379,7 +380,12 @@ video {
   left: 0;
   width: 100%;
   height: 100%;
+  outline: none;
+  user-select: none;
 }
+/* .responsive video::-webkit-media-controls-fullscreen-button {
+  display: none;
+} */
 @media (max-width: 1920px) {
   .responsive iframe {
     padding: 5.4% 14.3% 20.1% 15.8%;
