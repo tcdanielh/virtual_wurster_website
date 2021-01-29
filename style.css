@@ -99,6 +99,7 @@ video {
   vertical-align: middle;
   padding: 1rem 3.5rem;
   font-size: 20px;
+  white-space: nowrap;
 }
 .btn:hover {
   color: #212529;
@@ -276,6 +277,17 @@ video {
   text-align: center;
   margin-bottom: 56px;
 }
+@media (max-width: 1124px) {
+  .box {
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 342px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    margin-bottom: 56px;
+  }
+}
 @media (max-width: 406px) {
   .box {
     display: block;
@@ -430,26 +442,11 @@ video {
 .feedback {
   background: #F3F3F3;
   width: 100%;
-  height: 350px;
-}
-
-.feedback h1 {
-  font-size: 36px;
-  padding-top: 80px;
-}
-
-.feedback h2 {
-  font-size: 36px;
-  margin-top: -15px;
+  height: 240px;
 }
 
 .feedback p {
   font-size: 18px;
+  padding-top: 70px;
   padding-bottom: 50px;
-}
-
-@media (max-width: 522px) {
-  .feedback {
-    height: 500px;
-  }
 }
